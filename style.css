@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.faq-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    border: 3px solid black;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    
+}
+
+
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+
+
+span:hover{
+    background-color: red;
+    color: white;
+}
